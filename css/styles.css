@@ -44,6 +44,10 @@ address {
   font-style: normal;
 }
 
+footer {
+  background-color: #2e2f42;
+}
+
 /* #region Header */
 
 .header-page {
@@ -162,13 +166,10 @@ address {
   display: none;
 }
 
-.container-goal {
+.goal-list {
   max-width: 1148px;
   margin: 0 auto;
   padding: 0 10px;
-}
-
-.goal-list {
   display: flex;
   gap: 24px;
 }
@@ -205,14 +206,34 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
 }
 
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 8px;
+}
+
+.team-card-list {
+  max-width: 1148px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+  margin-bottom: 120px;
 }
 
 .team-card-item {
   background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border: 1px;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-card {
+  padding-bottom: 32px;
 }
 
 .team-member {
@@ -228,6 +249,19 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
+}
+
+.our-portfolio-section {
+}
+
+.our-portfolio-link {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.our-portfolio-item {
 }
 
 .our-portfolio {
@@ -238,6 +272,12 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.our-portfolio-card {
+  width: 360px;
 }
 
 .portfolio {
@@ -246,21 +286,23 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 8px;
 }
 
 .portfolio-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .footer-afterword {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.footer {
-  background-color: #2e2f42;
+  padding-top: 4px;
 }
 
 .logo-style-foot {
@@ -275,4 +317,10 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-bottom: 8px;
+}
+
+.page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
