@@ -51,14 +51,13 @@ footer {
 /* #region Header */
 
 .header-page {
-  max-width: 1148px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 10px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
-  display: flex;
   display: flex;
   justify-content: space-between;
 }
@@ -143,7 +142,7 @@ footer {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -246,7 +245,7 @@ footer {
 }
 
 .team-card-list {
-  max-width: 1148px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 10px;
   display: flex;
