@@ -85,10 +85,10 @@ footer {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-item {
-  padding: 24px 0;
 }
 
 .nav-item-link {
@@ -142,7 +142,7 @@ footer {
 }
 
 .container {
-  max-width: 1148px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -182,7 +182,7 @@ footer {
   padding: 120px 0;
 }
 
-.goal-features {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -195,7 +195,7 @@ footer {
 }
 
 .goal-item-list {
-  width: calc((100% - 72px) / 2);
+  width: calc((100% - 72px) / 4);
 }
 
 .goal-title {
@@ -220,6 +220,7 @@ footer {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team {
