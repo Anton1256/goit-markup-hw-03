@@ -51,15 +51,18 @@ footer {
 /* #region Header */
 
 .header-page {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 10px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav-page {
@@ -139,13 +142,6 @@ footer {
   padding: 188px 0;
   display: flex;
   text-align: center;
-}
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1158px;
-  margin: 0 auto;
 }
 
 .solutions-title {
