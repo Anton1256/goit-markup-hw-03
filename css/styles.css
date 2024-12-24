@@ -229,10 +229,6 @@ footer {
   padding: 120px 0;
 }
 
-.container-team {
-  padding: 32px 0;
-}
-
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -262,7 +258,7 @@ footer {
 }
 
 .container-team {
-  padding: 0px 0 32px;
+  padding: 32px 0;
 }
 
 .team-card {
