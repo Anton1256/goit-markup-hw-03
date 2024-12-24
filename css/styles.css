@@ -218,6 +218,10 @@ footer {
   text-align: left;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -226,12 +230,7 @@ footer {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-}
-
-.team {
-  background-color: #f4f4fd;
-  padding-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .team-card-list {
@@ -240,8 +239,6 @@ footer {
   padding: 0 10px;
   display: flex;
   gap: 24px;
-  margin-top: 72px;
-  margin-bottom: 120px;
 }
 
 .team-card-item {
@@ -250,10 +247,14 @@ footer {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border: 1px;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.container-team {
+  padding: 0px 0 32px;
 }
 
 .team-card {
-  padding-bottom: 32px;
 }
 
 .team-member {
@@ -263,13 +264,13 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-member-professions {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .our-portfolio-section {
