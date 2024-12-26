@@ -48,8 +48,6 @@ footer {
   background-color: #2e2f42;
 }
 
-/* #region Header */
-
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -136,8 +134,6 @@ footer {
   color: #404bbf;
 }
 
-/* #endregion */
-
 .solutions {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -195,7 +191,6 @@ footer {
 }
 
 .goal-list {
-  max-width: 1148px;
   margin: 0 auto;
   padding: 0 10px;
   display: flex;
