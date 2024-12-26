@@ -200,6 +200,7 @@ footer {
 .goal-item {
   flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
+  max-width: 1158px;
 }
 
 .goal-title {
@@ -254,6 +255,7 @@ footer {
   border-radius: 0 0 4px 4px;
   flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
+  max-width: 1158px;
 }
 
 .container-team {
