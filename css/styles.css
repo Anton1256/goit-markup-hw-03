@@ -192,7 +192,6 @@ footer {
 
 .goal-list {
   margin: 0 auto;
-  padding: 0 10px;
   display: flex;
   gap: 24px;
 }
@@ -200,7 +199,6 @@ footer {
 .goal-item {
   flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
-  max-width: 1158px;
 }
 
 .goal-title {
@@ -216,7 +214,6 @@ footer {
 .goal-action {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   margin: 0 auto;
   margin-bottom: 60px;
   width: 264px;
@@ -240,9 +237,7 @@ footer {
 }
 
 .team-card-list {
-  max-width: 1158px;
   margin: 0 auto;
-  padding: 0 10px;
   display: flex;
   gap: 24px;
 }
@@ -255,7 +250,6 @@ footer {
   border-radius: 0 0 4px 4px;
   flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
-  max-width: 1158px;
 }
 
 .container-team {
